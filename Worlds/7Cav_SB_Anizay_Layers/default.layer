@@ -73,7 +73,7 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
     SCR_Faction "{56DEAC40D2DBC8B1}" {
      m_bIsPlayable 1
      m_sFactionFlag "{168E6FD0EF81FD70}Assets/CavFlag.edds"
-     m_FactionFlagMaterial "{D13494DB13879D96}Assets/7CavBLK.emat"
+     m_FactionFlagMaterial "{D13494DB13879D95}Assets/7CavBLK.emat"
      m_aEntityCatalogs {
       SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" {
        m_aMultiLists {
@@ -242,6 +242,9 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
           SCR_EntityCatalogInventoryItem "{5C72EDE237C6A672}" {
            m_bEnabled 0
           }
+          SCR_EntityCatalogInventoryItem "{657A4874C55BFA7B}" {
+           m_sEntityPrefab "{EAC140671B326F58}Prefabs/Items/Equipment/Patches/Patch_US_Flag.et"
+          }
           SCR_EntityCatalogInventoryItem "{5C62F7D8FFD78690}" {
            m_bEnabled 0
           }
@@ -276,6 +279,58 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
            m_bEnabled 0
           }
           SCR_EntityCatalogInventoryItem "{5E6CD7DF6B2520A5}" {
+          }
+          SCR_EntityCatalogInventoryItem "{657A487418BAB95E}" {
+           m_sEntityPrefab "{7122907EFFE9ABD1}Prefabs/Items/Equipment/Patches/Patch_US_Flag_Inverse.et"
+          }
+         }
+        }
+        SCR_EntityCatalogMultiListEntry "{62A546A11317CCC6}" {
+         m_aEntities {
+          SCR_EntityCatalogInventoryItem "{64CEC9D0C250B23B}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogInventoryItem "{64CEC9D0CF39DC0B}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogInventoryItem "{64CEC9D0CB385277}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogInventoryItem "{64CEC9D32F47255E}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogInventoryItem "{64CEC9D0D03CA45B}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogInventoryItem "{64CEC9D0DECBD0A7}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogInventoryItem "{62A546A2D5C97015}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogInventoryItem "{64CEC9D0EA729D96}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogInventoryItem "{64CEC9D09038CE27}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogInventoryItem "{64CEC9D09C274DC3}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogInventoryItem "{64CEC9D0F23064A1}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogInventoryItem "{64CEC9D0F8A6F8A6}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogInventoryItem "{64CEC9D0E53B077F}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogInventoryItem "{64CEC9D0E1295112}" {
+           m_bEnabled 0
+          }
+          SCR_EntityCatalogInventoryItem "{62AA5DACDB4E4735}" {
+           m_bEnabled 0
           }
          }
         }
@@ -624,7 +679,6 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
            m_bEnabled 0
           }
           SCR_EntityCatalogInventoryItem "{604D2D5192F6C190}" {
-           m_bEnabled 0
           }
           SCR_EntityCatalogInventoryItem "{604D2D51DCC440E2}" {
            m_bEnabled 0
@@ -1155,6 +1209,11 @@ SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Ed
     SCR_FactionPlayerLoadout "{61069306CC96B466}" {
      m_sLoadoutName "MAAWS Asst"
      m_sLoadoutResource "{940B4189FFE3E83E}Prefabs/Characters/7CAV_C_MAAWS_AG.et"
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{6106F7F7BAA2E2F4}" {
+     m_sLoadoutName "Pilot"
+     m_sLoadoutResource "{DC13D85BAA888134}Prefabs/Characters/7CAV_A_Base.et"
      m_sAffiliatedFaction "US"
     }
    }
