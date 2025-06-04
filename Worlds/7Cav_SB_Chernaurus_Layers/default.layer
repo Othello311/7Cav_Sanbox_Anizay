@@ -1,14 +1,14 @@
 SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
- coords 5144.606 165.464 5076.696
- "Map Geometry Data" "{AF606472FF21251B}Worlds/Gamemaster/GM_Anizay.topo"
- "Satellite background image" "{8B38CC0FBBC58024}Data/UI/Textures/Map/Worlds/anizay_ras.edds"
+ coords 2154.98 369.686 13413.287
+ "Map Geometry Data" "{49C8C4AFA2F5D9E1}Images/UI/Map/ChernarusReforged.topo"
+ "Satellite background image" "{F1D87ACFF9045C1B}Images/UI/Map/ChernarusReforged.edds"
 }
 SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
  components {
   NavmeshWorldComponent "{5584F30E67F617AD}" {
    NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
     NavmeshFilesConfig BaseNavmeshFilesConfig "{655C0451AF9139AE}" {
-     NavmeshFile "{22BCE6ADD2DCD94C}Worlds/Gamemaster/Navmeshes/Anizay_soldiers_navmesh.nmn"
+     NavmeshFile "{B9AB71A30A026FD4}worlds/Navmeshes/Chernarus_Soldier.nmn"
     }
    }
   }
@@ -18,7 +18,7 @@ SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
    }
    NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
     NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
-     NavmeshFile "{CFCD9E2EA1CAA291}Worlds/Gamemaster/Navmeshes/Vehicle_navmesh/anizay_vehicle_navmesh.nmn"
+     NavmeshFile "{AA3B5DB2E08D2ABE}worlds/Navmeshes/Chernarus_BTR.nmn"
     }
     RecastConfig NavmeshRecastConfig "{50FC63BEB95B1C06}" {
      CellSize 0.2
@@ -34,18 +34,18 @@ SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
   NavmeshWorldComponent "{5C8C9B750D124A63}" {
    NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
     NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
-     NavmeshFile "{B077E4658D03DDA5}Worlds/Gamemaster/Navmeshes/lowres_navmesh/Anizay_lowres_navmesh.nmn"
+     NavmeshFile "{7ABCCBD9DD9D2051}worlds/Navmeshes/Chernarus_Lowres.nmn"
     }
    }
   }
  }
- coords 5144.606 165.458 5075.696
+ coords 2154.98 369.68 13412.287
 }
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
- coords 5144.606 165.485 5074.696
+ coords 2154.98 369.707 13411.287
 }
 SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
- coords 5144.606 165.511 5073.696
+ coords 2154.98 369.733 13410.287
  {
   SCR_FactionManager "655C0450012409AC" {
    ID "56E685E92F1B7E7A"
